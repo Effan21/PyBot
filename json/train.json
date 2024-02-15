@@ -1,0 +1,80 @@
+{
+    "intents": [
+      {
+        "tag": "à propos",
+        "patterns": ["comment ça va aujourd'hui ?", "comment vas-tu aujourd'hui ?", "comment ça va ?"],
+        "responses": ["Je vais bien, merci de demander ! Et vous ?"]
+      },
+      {
+        "tag": "configuration",
+        "patterns": ["étapes de configuration d'un ordinateur portable", "comment configurer un ordinateur portable ?"],
+        "responses": ["Voici les étapes de configuration d'un ordinateur portable : [étapes]"]
+      },
+      {
+        "tag": "heure_de_fermeture",
+        "patterns": ["à quelle heure fermez-vous ?", "quand fermez-vous ?"],
+        "responses": ["Nous fermons à [heure de fermeture]."]
+      },
+      {
+        "tag": "facteurs_impactant_les_ventes",
+        "patterns": ["qu'est-ce qui affecte les ventes ?", "pourquoi les ventes sont-elles affectées ?"],
+        "responses": ["Les facteurs qui affectent les ventes sont [facteurs]."]
+      },
+      {
+        "tag": "résoudre_des_problèmes",
+        "patterns": ["je ne comprends pas ce que votre produit fait", "comment utiliser votre produit ?"],
+        "responses": ["Je suis désolé de l'apprendre. Pouvez-vous me donner plus de détails sur le problème ?"]
+      },
+      {
+        "tag": "mot_de_passe_oublié",
+        "patterns": ["je ne me souviens pas de mon mot de passe", "comment réinitialiser mon mot de passe ?"],
+        "responses": ["Vous pouvez réinitialiser votre mot de passe en suivant ces étapes : [étapes]."]
+      },
+      {
+        "tag": "statut_du_rendez-vous",
+        "patterns": ["veuillez me dire ma liste de rendez-vous", "quel est mon rendez-vous ?"],
+        "responses": ["Voici votre liste de rendez-vous : [liste]."]
+      },
+      {
+        "tag": "prendre_rdv",
+        "patterns": ["puis-je avoir un rendez-vous avec votre manager ?", "je voudrais parler à votre manager."],
+        "responses": ["Je suis désolé, notre manager est actuellement occupé. Puis-je vous aider avec quelque chose d'autre ?"]
+      },
+      {
+        "tag": "merci",
+        "patterns": ["MERCI BEAUCOUP", "je vous remercie"],
+        "responses": ["De rien ! N'hésitez pas à me poser d'autres questions si vous en avez."]
+      },
+      {
+        "tag": "informations_fournisseur",
+        "patterns": ["quel type d'informations vos fournisseurs ont-ils ?", "quelles informations sont fournies par vos fournisseurs ?"],
+        "responses": ["Nos fournisseurs fournissent des informations telles que [informations]."]
+      },
+      {
+        "tag": "problèmes_de_fabrication",
+        "patterns": ["qui est votre fabricant ?", "qui fabrique vos produits ?"],
+        "responses": ["Nos produits sont fabriqués par [fabricant]."]
+      },
+      {
+        "tag": "satisfaction_des_clients",
+        "patterns": ["que disent vos clients ?", "quelles sont les avis des clients ?"],
+        "responses": ["Nos clients sont satisfaits de nos produits et services. Ils nous ont donné [notes]."]
+      },
+      {
+        "tag": "gadgets",
+        "patterns": ["qu'avez-vous en stock ?", "quelle est votre sélection de produits ?"],
+        "responses": ["Nous avons une large gamme de produits en stock, y compris [produits]."]
+      },
+      {
+        "tag": "emplacement_du_magasin",
+        "patterns": ["où se trouve votre magasin ?", "quel est l'emplacement de votre magasin ?"],
+        "responses": ["Notre magasin est situé à [adresse]."]
+      },
+      {
+        "tag": "satisfaction_des_clients",
+        "patterns": ["dites-moi quelles notes vos clients vous donnent ?", "quels sont les avis des clients ?"],
+        "responses": ["Nos clients nous ont donné d'excellentes notes. Ils sont très satisfaits de nos produits et services."]
+      }
+    ]
+  }
+  

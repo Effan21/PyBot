@@ -1,0 +1,240 @@
+{
+    "intents": [
+        {
+            "tag": "Salutations",
+            "patterns": [
+                "Bonjour",
+                "Salut",
+                "Coucou",
+                "Hello",
+                "Salutations"
+            ],
+            "responses": [
+                "Bonjour ! Que voulez-vous savoir sur le paludisme ? Comment puis-je vous aider aujourd'hui ?",
+                "Salut ! En quoi puis-je vous assister concernant le paludisme ?",
+                "Coucou ! Qu'est-ce que je peux faire pour vous en ce qui concerne le paludisme ?",
+                "Hello ! Comment puis-je vous être utile en matière de paludisme ?",
+                "Salut ! Savez-vous que le paludisme affecte des millions de personnes chaque année ? Il est crucial de comprendre cette maladie. En quoi puis-je vous aider concernant le paludisme ?",
+                "Coucou ! Connaissez-vous les impacts du paludisme dans le monde ? Il est essentiel de rester informé. Comment puis-je vous assister en matière de paludisme ?"
+            ],
+            "context_set": ""
+        },        
+        {
+            "tag": "bye",
+            "patterns": [
+                "Au revoir",
+                "À bientôt",
+                "Bonne journée",
+                "Adieu",
+                "À la prochaine"
+            ],
+            "responses": [
+                "Au revoir ! N'hésitez pas à revenir si vous avez d'autres questions.",
+                "À bientôt ! Passez une excellente journée !",
+                "Bonne journée ! À la prochaine fois !",
+                "Adieu ! Prenez soin de vous !"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Qu'est-ce que le paludisme ?",
+            "patterns": [
+                "Qu'est-ce que le paludisme ?",
+                "C'est quoi le paludisme ?",
+                "Expliquez-moi ce qu'est le paludisme."
+            ],
+            "responses": [
+                "Le paludisme, également connu sous le nom de malaria, est une maladie parasitaire potentiellement mortelle transmise par des moustiques infectés du genre Anopheles. En Afrique, le paludisme représente un fardeau important pour la santé publique, avec des millions de cas signalés chaque année. Les symptômes courants du paludisme comprennent la fièvre, les frissons, les maux de tête, les douleurs musculaires et les nausées."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Quels sont les symptômes du paludisme ?",
+            "patterns": [
+                "Quels sont les symptômes du paludisme ?",
+                "Je pense avoir le paludisme, quels sont les signes ?",
+                "Quels signes indiquent la présence du paludisme ?"
+            ],
+            "responses": [
+                "Les symptômes du paludisme varient d'une personne à l'autre et peuvent ressembler à ceux d'une grippe sévère. Outre la fièvre, les frissons, les maux de tête et les douleurs musculaires, le paludisme peut également entraîner des vomissements, une diarrhée et des convulsions. Chez les enfants en particulier, il peut être associé à une anémie grave et à des complications neurologiques."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Comment se transmet le paludisme ?",
+            "patterns": [
+                "Comment se transmet le paludisme ?",
+                "Quels sont les modes de transmission du paludisme ?",
+                "Peut-on attraper le paludisme par contact direct ?"
+            ],
+            "responses": [
+                "Le paludisme est transmis par la piqûre de moustiques infectés du genre Anopheles. En Afrique, ces moustiques sont présents dans de nombreuses régions, en particulier pendant la saison des pluies. Les parasites du paludisme se multiplient dans le corps humain et peuvent causer des infections graves s'ils ne sont pas traités rapidement."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Comment se protéger et prévenir le paludisme ?",
+            "patterns": [
+                "Comment se protéger et prévenir le paludisme ?",
+                "Quelles mesures puis-je prendre pour éviter le paludisme ?",
+                "Quels sont les moyens de prévention du paludisme ?"
+            ],
+            "responses": [
+                "Pour prévenir le paludisme, il est recommandé de dormir sous une moustiquaire imprégnée d'insecticide, en particulier pour les enfants et les femmes enceintes. Évitez les piqûres de moustiques en portant des vêtements longs et en utilisant des répulsifs anti-moustiques. Dans certaines régions, des médicaments prophylactiques peuvent être recommandés avant le voyage ou pendant votre séjour."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Dois-je m'inquiéter du paludisme ?",
+            "patterns": [
+                "Dois-je m'inquiéter du paludisme ?",
+                "Est-ce que le paludisme est dangereux ?",
+                "Le paludisme peut-il être mortel ?"
+            ],
+            "responses": [
+                "Le paludisme peut être une maladie grave, en particulier chez les enfants et les personnes âgées. Dans de nombreuses régions d'Afrique, le traitement médical peut être difficile d'accès, ce qui augmente le risque de complications graves. Il est important de prendre des mesures préventives, notamment en utilisant des moustiquaires et en évitant les zones à risque pendant la saison des pluies."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Quelles sont les complications du paludisme ?",
+            "patterns": [
+                "Quelles sont les complications du paludisme ?",
+                "Le paludisme peut-il causer d'autres problèmes de santé ?",
+                "Quels sont les risques associés au paludisme ?"
+            ],
+            "responses": [
+                "Le paludisme peut entraîner plusieurs complications graves, notamment l'anémie, la dysfonction cérébrale, les convulsions et l'insuffisance rénale. Dans les cas graves, il peut même être fatal. Les femmes enceintes et les jeunes enfants sont particulièrement vulnérables aux complications du paludisme."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Comment diagnostique-t-on le paludisme ?",
+            "patterns": [
+                "Comment diagnostique-t-on le paludisme ?",
+                "Quels sont les tests disponibles pour détecter le paludisme ?",
+                "Comment savoir si j'ai le paludisme ?"
+            ],
+            "responses": [
+                "Le paludisme peut être diagnostiqué à l'aide de tests de laboratoire qui détectent la présence de parasites du paludisme dans le sang. Ces tests peuvent être des tests rapides par bandelette ou des frottis sanguins examinés au microscope. Il est important de consulter un professionnel de la santé dès l'apparition des symptômes pour un diagnostic et un traitement précoces."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Quels sont les traitements disponibles pour le paludisme ?",
+            "patterns": [
+                "Quels sont les traitements disponibles pour le paludisme ?",
+                "Comment traite-t-on le paludisme ?",
+                "Quels médicaments sont utilisés pour soigner le paludisme ?"
+            ],
+            "responses": [
+                "Le traitement du paludisme dépend du type de parasite et de la gravité de l'infection. Les médicaments antipaludiques couramment utilisés comprennent l'artémisinine combinée à d'autres médicaments, tels que la pipéraquine ou la luméfantrine. Il est important de suivre rigoureusement le traitement prescrit par un professionnel de la santé pour éviter les complications et la résistance aux médicaments."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Le paludisme peut-il être prévenu pendant la grossesse ?",
+            "patterns": [
+                "Le paludisme peut-il être prévenu pendant la grossesse ?",
+                "Quelles sont les précautions à prendre contre le paludisme pendant la grossesse ?",
+                "Comment protéger une femme enceinte contre le paludisme ?"
+            ],
+            "responses": [
+                "Les femmes enceintes sont particulièrement vulnérables au paludisme et aux complications associées. Il est recommandé aux femmes enceintes vivant dans des zones à risque de dormir sous une moustiquaire imprégnée d'insecticide, de prendre des médicaments prophylactiques et de consulter régulièrement un professionnel de la santé pour un suivi adéquat."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Quelles sont les mesures de contrôle du paludisme en Afrique ?",
+            "patterns": [
+                "Quelles sont les mesures de contrôle du paludisme en Afrique ?",
+                "Comment les autorités sanitaires luttent-elles contre le paludisme en Afrique ?",
+                "Quels sont les programmes de prévention du paludisme disponibles en Afrique ?"
+            ],
+            "responses": [
+                "En Afrique, les mesures de contrôle du paludisme comprennent la distribution de moustiquaires imprégnées d'insecticide, la pulvérisation d'insecticides à l'intérieur des habitations, le traitement préventif intermittent chez les femmes enceintes et les enfants, et le dépistage et le traitement précoces des cas de paludisme. Ces interventions sont essentielles pour réduire la transmission du paludisme et sauver des vies."
+            ],
+            "context_set": ""
+        },
+          {
+            "tag": "Conseils_Diagnostiques",
+            "patterns": ["Quels sont les conseils diagnostiques pour le paludisme ?", "Comment diagnostiquer le paludisme ?", "Quels tests sont utilisés pour diagnostiquer le paludisme ?", "Comment évaluer les symptômes du paludisme ?"],
+            "responses": ["Les conseils diagnostiques pour le paludisme incluent l'utilisation de tests sanguins pour détecter la présence du parasite dans le sang, ainsi que l'évaluation des symptômes tels que la fièvre, les frissons et les maux de tête.", "Le paludisme est diagnostiqué à l'aide de tests sanguins, tels que des frottis sanguins et des tests rapides de diagnostic, ainsi que par l'évaluation des symptômes du patient.", "Pour diagnostiquer le paludisme, les médecins utilisent des tests sanguins spécifiques pour détecter la présence du parasite dans le sang et évaluent les symptômes du patient, tels que la fièvre, les frissons et les maux de tête.", "Les tests diagnostiques pour le paludisme comprennent des examens de laboratoire tels que des frottis sanguins et des tests rapides de diagnostic, ainsi que l'évaluation des symptômes du patient."]
+          },
+          {
+            "tag": "Conseils_Traitements",
+            "patterns": ["Quels sont les traitements recommandés pour le paludisme ?", "Comment traiter le paludisme ?", "Quels médicaments sont utilisés pour traiter le paludisme ?", "Quelles sont les options de traitement pour le paludisme ?"],
+            "responses": ["Les traitements recommandés pour le paludisme incluent l'utilisation de médicaments antipaludiques tels que la chloroquine, l'artémisinine et la méfloquine, ainsi que des mesures de soutien telles que le repos au lit et l'hydratation.", "Le paludisme est traité à l'aide de médicaments antipaludiques qui éliminent le parasite du corps. Les médicaments couramment utilisés comprennent la chloroquine, l'artémisinine et la méfloquine.", "Les options de traitement pour le paludisme comprennent l'utilisation de médicaments antipaludiques, tels que la chloroquine et l'artémisinine, ainsi que des mesures de soutien telles que le repos au lit et l'hydratation.", "Le traitement du paludisme implique l'utilisation de médicaments antipaludiques pour éliminer le parasite du corps, ainsi que des mesures de soutien pour soulager les symptômes du patient."]
+          },
+          {
+            "tag": "Precautions_Sanitaires",
+            "patterns": ["Quelles précautions prendre pour éviter le paludisme lors d'un voyage ?", "Comment se protéger contre le paludisme en zone endémique ?", "Quels sont les conseils de prévention du paludisme ?"],
+            "responses": ["Pour éviter le paludisme lors d'un voyage, utilisez des moustiquaires imprégnées d'insecticide, portez des vêtements longs et utilisez des répulsifs contre les moustiques. Assurez-vous également de prendre des médicaments antipaludiques prophylactiques, le cas échéant, et consultez un professionnel de la santé avant de voyager dans une zone à risque de paludisme.", "Les conseils pour se protéger contre le paludisme en zone endémique comprennent l'utilisation de moustiquaires imprégnées d'insecticide, le port de vêtements longs et l'utilisation de répulsifs contre les moustiques. Évitez les zones infestées de moustiques à l'aube et au crépuscule, lorsque les moustiques sont les plus actifs.", "Pour prévenir le paludisme, utilisez des répulsifs contre les moustiques, portez des vêtements longs et utilisez des moustiquaires imprégnées d'insecticide. Évitez les zones infestées de moustiques à l'aube et au crépuscule, lorsque les moustiques sont les plus actifs."]
+          },
+          {
+            "tag": "Ressources_Medicales",
+            "patterns": ["Où puis-je trouver de l'aide médicale pour le paludisme ?", "Quels sont les centres de santé spécialisés dans le traitement du paludisme ?", "Quelles ressources médicales sont disponibles pour les personnes atteintes de paludisme ?"],
+            "responses": ["Pour obtenir de l'aide médicale pour le paludisme, consultez votre médecin traitant ou rendez-vous dans un centre de santé spécialisé dans le traitement des maladies tropicales. Vous pouvez également contacter les autorités sanitaires locales pour obtenir des informations sur les ressources médicales disponibles.", "Les centres de santé spécialisés dans le traitement du paludisme peuvent être trouvés dans les hôpitaux régionaux et les cliniques de santé communautaires. Consultez votre médecin traitant pour obtenir des recommandations sur les centres de santé spécialisés dans le traitement des maladies tropicales.", "Les personnes atteintes de paludisme peuvent obtenir de l'aide médicale auprès de leur médecin traitant, des hôpitaux locaux et des cliniques de santé communautaires. Renseignez-vous auprès des autorités sanitaires locales pour connaître les ressources médicales disponibles dans votre région."]
+          },
+          {
+            "tag": "Evaluation_Symptomes",
+            "patterns": ["Comment évaluer mes symptômes de paludisme ?", "Quels sont les critères d'évaluation des symptômes du paludisme ?", "Comment savoir si mes symptômes nécessitent une attention médicale immédiate ?"],
+            "responses": ["Il est important d'évaluer vos symptômes de paludisme en fonction de leur gravité et de leur durée. Si vous présentez des symptômes tels que de la fièvre, des frissons, des maux de tête sévères et des nausées, consultez immédiatement un professionnel de la santé.", "Pour évaluer vos symptômes de paludisme, surveillez attentivement la gravité et la durée de chaque symptôme. Si vous ressentez une fièvre persistante, des frissons, des maux de tête sévères ou des nausées, consultez immédiatement un médecin.", "Les critères d'évaluation des symptômes du paludisme comprennent la gravité et la durée de chaque symptôme, ainsi que leur impact sur vos activités quotidiennes. Si vous ressentez des symptômes graves ou persistants, consultez immédiatement un professionnel de la santé."]
+          },
+          {
+            "tag": "Conseils_Hydratation",
+            "patterns": ["Quels conseils donner sur l'hydratation en cas de paludisme ?", "Comment rester hydraté pendant le traitement du paludisme ?", "Quels liquides sont recommandés pendant le traitement du paludisme ?"],
+            "responses": ["Pendant le traitement du paludisme, assurez-vous de rester bien hydraté en buvant beaucoup de liquides, tels que de l'eau, des jus de fruits et des bouillons. Évitez les aliments gras et lourds, et privilégiez les repas légers et faciles à digérer, tels que les soupes et les fruits.", "Pour rester hydraté pendant le traitement du paludisme, buvez régulièrement de l'eau et des liquides riches en électrolytes, tels que des boissons pour sportifs et des bouillons. Évitez les boissons alcoolisées et caféinées, qui peuvent entraîner une déshydratation.", "Pendant le traitement du paludisme, il est important de rester bien hydraté en buvant beaucoup de liquides, comme de l'eau, du thé et des bouillons. Évitez les boissons sucrées et gazeuses, qui peuvent aggraver les symptômes de la maladie."]
+          },
+          {
+            "tag": "Evaluation_Progression_Maladie",
+            "patterns": ["Comment évaluer la progression de la maladie en cas de paludisme ?", "Quels signes indiquent une aggravation de l'état de santé dû au paludisme ?", "Comment surveiller les symptômes pendant le traitement du paludisme ?"],
+            "responses": ["Pour évaluer la progression de la maladie en cas de paludisme, surveillez attentivement vos symptômes et signalez tout changement à votre médecin. Les signes d'aggravation de l'état de santé peuvent inclure une fièvre persistante, des frissons, des maux de tête sévères et des difficultés respiratoires.", "Pour surveiller les symptômes pendant le traitement du paludisme, notez tous les changements dans votre état de santé et signalez-les à votre médecin. Les signes d'une aggravation de la maladie peuvent inclure une fièvre persistante, des frissons, des douleurs musculaires et une confusion mentale.", "Pour évaluer la progression de la maladie en cas de paludisme, surveillez attentivement vos symptômes et signalez tout changement à votre médecin. Les signes d'une aggravation de l'état de santé peuvent inclure une fièvre persistante, des frissons, des maux de tête sévères et des difficultés respiratoires."]
+          },
+          {
+            "tag": "Conseils_Hygiene",
+            "patterns": ["Quels conseils donner sur l'hygiène personnelle en cas de paludisme ?", "Comment maintenir une bonne hygiène pendant le traitement du paludisme ?", "Quelles mesures d'hygiène sont recommandées pour prévenir la propagation du paludisme ?"],
+            "responses": ["Pendant le traitement du paludisme, maintenez une bonne hygiène personnelle en vous lavant régulièrement les mains avec de l'eau et du savon, en utilisant des mouchoirs jetables pour vous moucher et en évitant de partager des objets personnels tels que des brosses à dents et des rasoirs.", "Pour maintenir une bonne hygiène pendant le traitement du paludisme, lavez-vous régulièrement les mains avec de l'eau et du savon, évitez de toucher votre visage avec des mains non lavées et nettoyez régulièrement les surfaces de contact fréquentes dans votre environnement, telles que les poignées de porte et les interrupteurs d'éclairage.", "Pour prévenir la propagation du paludisme, adoptez des mesures d'hygiène telles que le lavage régulier des mains avec de l'eau et du savon, l'utilisation de moustiquaires imprégnées d'insecticide pendant le sommeil et l'élimination des sites de reproduction des moustiques, tels que les eaux stagnantes."]
+          },
+          {
+            "tag": "Evaluation_Resultats_Traitement",
+            "patterns": ["Quels critères utiliser pour évaluer les résultats du traitement du paludisme ?", "Comment savoir si le traitement du paludisme a été efficace ?", "Quels signes indiquent une guérison complète du paludisme ?"],
+            "responses": ["Pour évaluer les résultats du traitement du paludisme, surveillez vos symptômes et effectuez les tests sanguins recommandés par votre médecin. Les signes d'une guérison complète peuvent inclure la disparition des symptômes, des résultats négatifs aux tests de diagnostic et une amélioration générale de votre état de santé.", "Pour savoir si le traitement du paludisme a été efficace, surveillez attentivement vos symptômes et effectuez les tests sanguins recommandés par votre médecin. Les signes d'une guérison réussie peuvent inclure la disparition des symptômes, des résultats négatifs aux tests de diagnostic et une amélioration générale de votre état de santé.", "Pour évaluer les résultats du traitement du paludisme, surveillez attentivement vos symptômes et effectuez les tests sanguins recommandés par votre médecin. Les signes d'une guérison complète peuvent inclure la disparition des symptômes, des résultats négatifs aux tests de diagnostic et une amélioration générale de votre état de santé."]
+          },
+          {
+            "tag": "Conseils_Prevision_Voyage",
+            "patterns": ["Quels conseils donner pour prévenir le paludisme lors d'un voyage ?", "Comment se préparer pour un voyage dans une zone à risque de paludisme ?", "Quels médicaments prendre avant de voyager dans une région où le paludisme est présent ?"],
+            "responses": ["Pour prévenir le paludisme lors d'un voyage, consultez un professionnel de la santé pour obtenir des médicaments antipaludiques prophylactiques, utilisez des moustiquaires imprégnées d'insecticide pendant le sommeil et évitez les piqûres de moustiques en portant des vêtements longs et en utilisant des répulsifs contre les insectes.", "Avant de voyager dans une zone à risque de paludisme, consultez un médecin pour obtenir des recommandations sur les médicaments antipaludiques prophylactiques, prévoyez d'utiliser des moustiquaires imprégnées d'insecticide pendant le sommeil et emportez des répulsifs contre les moustiques et des vêtements longs pour vous protéger contre les piqûres de moustiques.", "Avant de voyager dans une région où le paludisme est présent, consultez un professionnel de la santé pour obtenir des médicaments antipaludiques prophylactiques et des conseils sur la prévention des piqûres de moustiques. Prévoyez d'utiliser des moustiquaires imprégnées d'insecticide pendant le sommeil et emportez des répulsifs contre les moustiques et des vêtements longs pour vous protéger contre les piqûres de moustiques."]
+          },
+          {
+            "tag": "Conseils_Prise_Medicaments",
+            "patterns": ["Quels conseils donner sur la prise de médicaments antipaludiques ?", "Comment prendre correctement les médicaments antipaludiques ?", "Quels effets secondaires sont courants avec les médicaments antipaludiques ?"],
+            "responses": ["Pour prendre correctement les médicaments antipaludiques, suivez attentivement les instructions de votre médecin et respectez les doses prescrites. Prenez les médicaments avec de la nourriture pour réduire les effets secondaires, et ne manquez aucune dose pour assurer l'efficacité du traitement.", "La prise de médicaments antipaludiques doit être effectuée conformément aux instructions de votre médecin. Prenez les médicaments avec de la nourriture pour réduire les effets secondaires et assurez-vous de suivre le calendrier de dosage recommandé. Si vous ressentez des effets secondaires graves, consultez immédiatement un professionnel de la santé.", "Les effets secondaires courants des médicaments antipaludiques incluent des maux de tête, des nausées, des vomissements et des étourdissements. Assurez-vous de suivre les instructions de votre médecin pour minimiser ces effets secondaires et consultez un professionnel de la santé si vous ressentez des symptômes graves."]
+          },
+          {
+            "tag": "Conseils_Nutrition",
+            "patterns": ["Quels conseils donner sur la nutrition en cas de paludisme ?", "Comment maintenir une alimentation équilibrée pendant le traitement du paludisme ?", "Quels aliments sont recommandés pendant le traitement du paludisme ?"],
+            "responses": ["Pendant le traitement du paludisme, maintenez une alimentation équilibrée en consommant des aliments riches en nutriments, tels que des fruits, des légumes, des grains entiers et des protéines maigres. Évitez les aliments transformés et riches en sucre, qui peuvent aggraver les symptômes de la maladie.", "Pour maintenir une alimentation équilibrée pendant le traitement du paludisme, consommez une variété d'aliments riches en nutriments, tels que des fruits, des légumes, des grains entiers et des protéines maigres. Évitez les aliments transformés et riches en sucre, qui peuvent aggraver les symptômes de la maladie.", "Pendant le traitement du paludisme, privilégiez une alimentation équilibrée composée de fruits, de légumes, de céréales complètes et de protéines maigres. Évitez les aliments transformés et riches en sucre, qui peuvent aggraver les symptômes de la maladie."]
+          },
+          {
+            "tag": "Conseils_Exercice",
+            "patterns": ["Quels conseils donner sur l'exercice en cas de paludisme ?", "Comment maintenir un programme d'exercice pendant le traitement du paludisme ?", "Quels types d'exercices sont recommandés pendant le traitement du paludisme ?"],
+            "responses": ["Pendant le traitement du paludisme, maintenez un programme d'exercice modéré en pratiquant des activités telles que la marche, la natation et le yoga. Évitez les exercices vigoureux qui pourraient aggraver les symptômes de la maladie et consultez votre médecin avant de commencer tout nouveau programme d'exercice.", "Pour maintenir un programme d'exercice pendant le traitement du paludisme, pratiquez régulièrement des activités d'intensité modérée, telles que la marche, la natation et le yoga. Évitez les exercices vigoureux qui pourraient aggraver les symptômes de la maladie et consultez votre médecin avant de commencer tout nouveau programme d'exercice.", "Pendant le traitement du paludisme, privilégiez les activités d'intensité modérée, telles que la marche, la natation et le yoga, pour maintenir un programme d'exercice sain. Évitez les exercices vigoureux qui pourraient aggraver les symptômes de la maladie et consultez votre médecin avant de commencer tout nouveau programme d'exercice."]
+          },
+          {
+            "tag": "Conseils_Repos",
+            "patterns": ["Quels conseils donner sur le repos en cas de paludisme ?", "Comment se reposer efficacement pendant le traitement du paludisme ?", "Quels sont les bienfaits du repos pendant le traitement du paludisme ?"],
+            "responses": ["Pendant le traitement du paludisme, assurez-vous de vous reposer suffisamment en dormant au moins 8 heures par nuit et en prenant des pauses régulières tout au long de la journée. Évitez les activités épuisantes et les situations stressantes, et écoutez votre corps pour savoir quand vous avez besoin de vous reposer.", "Pour vous reposer efficacement pendant le traitement du paludisme, assurez-vous de dormir suffisamment chaque nuit et de prendre des pauses régulières tout au long de la journée. Évitez les activités épuisantes et les situations stressantes, et accordez-vous du temps pour vous détendre et récupérer.", "Le repos est essentiel pendant le traitement du paludisme pour permettre à votre corps de se rétablir efficacement. Assurez-vous de dormir suffisamment chaque nuit, de prendre des pauses régulières tout au long de la journée et de vous accorder du temps pour vous détendre et récupérer."]
+          },
+          {
+            "tag": "Evaluation_Risques",
+            "patterns": ["Comment évaluer les risques associés au paludisme ?", "Quels facteurs augmentent le risque de contracter le paludisme ?", "Comment minimiser les risques de contracter le paludisme ?"],
+            "responses": ["Pour évaluer les risques associés au paludisme, tenez compte de facteurs tels que la région géographique, la saisonnalité des moustiques, les conditions météorologiques locales et les déplacements récents dans des zones à risque de paludisme. Consultez également un professionnel de la santé pour obtenir des recommandations personnalisées sur la prévention du paludisme.", "Les facteurs qui augmentent le risque de contracter le paludisme comprennent les voyages dans des zones à risque de paludisme, les activités de plein air pendant les heures de pointe des moustiques et les conditions météorologiques favorables à la reproduction des moustiques. Pour minimiser les risques, utilisez des méthodes de prévention telles que les moustiquaires imprégnées d'insecticide et les répulsifs contre les moustiques.", "Pour minimiser les risques de contracter le paludisme, évitez les voyages dans des zones à risque de paludisme pendant la saison des pluies, utilisez des moustiquaires imprégnées d'insecticide pendant le sommeil et portez des vêtements longs et légers pour vous protéger contre les piqûres de moustiques."]
+          },
+          {
+            "tag": "Aurevoir",
+            "patterns": ["Au revoir", "À bientôt", "Adieu", "Bonne journée", "Bonne soirée"],
+            "responses": ["Au revoir ! N'hésitez pas à revenir si vous avez d'autres questions.", "À bientôt ! Prenez soin de vous.", "Adieu ! Merci de nous avoir consultés. Bonne santé !", "Bonne journée ! Que la santé soit avec vous.", "Bonne soirée ! Revenez quand vous voulez."]
+          }
+    ]
+}
