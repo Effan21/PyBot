@@ -1,5 +1,7 @@
 import streamlit as st
 from chat import get_response, bot_name
+import nltk
+nltk.download('punkt')
 
 
 def main():
